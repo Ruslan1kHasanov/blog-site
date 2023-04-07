@@ -1,0 +1,40 @@
+@import url(../fonts/fonts.css);
+
+.call_me_wrapper{
+      width: 100vw;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 101;
+      background-color: rgba(0, 0, 0, 0.4);
+      visibility: hidden;
+}
+
+.call_me_container{
+      min-width: 420px;
+      width: 50vw;
+      max-width: 700px;
+      height: 500px;
+      background-color:aliceblue;
+      border-radius: 50px;
+      z-index: 101;
+      position: relative;
+
+}
+
+.close_call_me_btn{
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      font-weight: 600;
+      font-size: 5rem;
+      background-image: url("../images/system_pictures/cross-svgrepo-com.svg");
+      background-size: cover;
+}

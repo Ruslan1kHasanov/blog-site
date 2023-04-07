@@ -1,0 +1,12 @@
+.main_wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Candara;
+}
+
+.h2_articles{
+    font-family: 'test_font_regular';
+    font-size: 3rem;
+    letter-spacing: 2px;
+}

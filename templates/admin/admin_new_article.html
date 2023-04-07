@@ -1,0 +1,34 @@
+<div class="admin_content">
+    <div class="new_article_container">
+        <h3 class="article_h2">Добавить статью</h3>
+        <form action="admin_server.php" method="post" class="new_article_form">
+            <div class="meta_data_container">
+                <label for="article_title">Заголовок статьи:</label>
+                <input type="text" id="article_title" name="article_title" class="form_element">
+
+                <label for="key_words">Ключевые слова:</label>
+                <textarea id="key_words" type="text" class="form_element" name="key_words"></textarea>
+
+                <label for="article_description">Краткое описание:</label>
+                <textarea name="article_description" id="article_description" class="form_element"></textarea>
+
+            </div>
+
+            <div class="article_text_container">
+                <label for="article_text">Текст статьи:</label>
+                <textarea id="article_text" name="article_text" class="form_element"></textarea>
+
+            </div>
+
+            <label for="img_file" class="file_upload_label">Заголовочная картинка (< 2.0 Мб):</label>
+            <input type="file" name="img_file" id="img_file">
+
+            <button id="make_article_btn">Создать статью</button>
+        </form>
+    </div>
+
+    <div class="result_wrapper">
+        <h2><b>Предпросмотр</b></h2>
+        <div class="result_container"></div>
+    </div>
+</div>

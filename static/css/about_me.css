@@ -1,0 +1,131 @@
+.about_me_content{
+    position: relative;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.about_me_content::before{
+    content: '';
+    width: 100%;
+    height: 26vh;
+    display: block;
+    position: absolute;
+    top: calc(0vh - 24vh);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0) 50%);
+    pointer-events: none;
+}
+
+.about_me_wrapper {
+    margin: 15px calc(15px + (180 - 15) * ((100vw - 500px) / (2560 - 500))) 0;
+    width: calc(100% - 15px + (180 - 15) * ((100vw - 500px) / (2560 - 500)));
+    max-width: 1800px;
+    font-size: 1.3rem;
+}
+
+.main_wrapper{
+    width: 100vw;
+}
+
+.content_wrapper {
+    display: flex;
+}
+
+.about_me_wrapper > h2 {
+    font-family: 'test_font_regular';
+    font-size: 3rem;
+    margin: 20px 0 15px 0;
+    text-align: center;
+}
+
+.content_h {
+    font-family: 'test_font_regular';
+    font-size: 2rem;
+}
+
+.p_content {
+    font-family: Candara;
+}
+
+
+/*---------BLOCK1-----------*/
+
+.line_block1_wrapper{
+    display: flex;
+    justify-content: center;
+    margin: calc(10px + (40 - 10) * ((100vw - 500px) / (2560 - 500))) 0;
+    /*margin: 30px 0;*/
+}
+
+.text_content_block_1 {
+    padding: 0 15px 0 30px;
+}
+
+.block_1 {
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+}
+
+.img_block_1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+.my_phone_num{
+    font-family: Candara;
+}
+
+.my_phone_num > span{
+    font-family: serif;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+/*---------BLOCK2-----------*/
+
+.line_block2_wrapper {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.block_2 {
+    margin: 86px 0 0 0;
+    max-width: 800px;
+    /*transform: translateY(-50px);*/
+}
+
+.img_block_2 {
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+}
+
+.text_content_block_2 {
+    padding: 0 15px 0 15px;
+}
+
+/*---------BLOCK3-----------*/
+
+
+.line_block3_wrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.block_3 {
+    margin: 30px 0 0 0;
+    max-width: 800px;
+    transform: translateY(-100px);
+}
+
+.img_block_3 {
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+}
+
+.text_content_block_3 {
+    padding: 0 15px 0 15px;
+}

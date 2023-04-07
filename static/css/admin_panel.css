@@ -1,0 +1,156 @@
+.admin_header{
+    width: 100vw;
+    height: 70px;
+    background-color: #313131;
+}
+
+.admin_h1{
+    color: aliceblue;
+    font-family: Candara;
+    padding: 20px;
+    margin: 0;
+}
+
+.admin_auth_wrapper{
+    width: 100vw;
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Candara;
+}
+
+.admin_auth_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.auth_input{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/*----------ARTICLES----------*/
+
+label{
+    font-weight: bold;
+}
+
+.admin_content{
+    font-size: larger;
+    font-family: Candara;
+    margin: 20px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    resize: none;
+}
+
+/*-----------ARTICLE-------------*/
+
+.article_h2{
+    margin: 0 0 10px 0;
+    font-size: x-large;
+}
+
+.new_article_container{
+    border: black 1px solid;
+    width: 95vw;
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.meta_data_container{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.new_article_form{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% + 15px);
+}
+
+.form_element{
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #a6a6a6;
+}
+
+#article_title{
+    width: 33%;
+}
+
+#article_description{
+    height: 200px;
+}
+
+#key_words{
+    height: 90%;
+}
+
+.article_text_container{
+    width: 70%;
+}
+
+#article_text{
+    height: 1000px;
+}
+
+
+.file_upload_label{
+    margin-top: 15px;
+}
+
+#make_article_btn{
+    /*position: absolute;*/
+    /*right: 15px;*/
+    /*bottom: 20px;*/
+    border-radius: 10px;
+    background-color: #73cb5a;
+    cursor: pointer;
+    width: 200px;
+    margin: 30px auto 0;
+}
+
+#img_file{
+    width: 40%;
+}
+
+#make_article_btn:hover{
+    background-color: #a4fd85;
+}
+
+
+/*--------TINY_MODIFY----------*/
+.tox-promotion{
+    visibility: hidden;
+}
+
+/*-------------RESULT-----------*/
+
+.result_wrapper{
+    width: calc(100vw - 30px);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.result_container{
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid black;
+    width: calc(100% - 60px);
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+
